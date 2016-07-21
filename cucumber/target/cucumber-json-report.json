@@ -1,0 +1,467 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Provide the parameters",
+        "description": "",
+        "id": "edit-building-address;provide-the-parameters;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 233055776,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The form is open for editing",
+            "match": {
+              "location": "steps.form_is_open_for_editing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8782140,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I put into values:postCode,city,street,houseNumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postCode",
+                  "offset": 18
+                },
+                {
+                  "val": "city",
+                  "offset": 27
+                },
+                {
+                  "val": "street",
+                  "offset": 32
+                },
+                {
+                  "val": "houseNumber",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.I_put_values_post_code_city_street_houseNumber(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69703,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I submit",
+            "match": {
+              "location": "steps.I_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192432,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The submit action result should be OK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.submit_action_result_should_be(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Provide the parameters",
+        "description": "",
+        "id": "edit-building-address;provide-the-parameters;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 144109,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The form is open for editing",
+            "match": {
+              "location": "steps.form_is_open_for_editing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 363481,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I put into values:,city,street,houseNumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "city",
+                  "offset": 19
+                },
+                {
+                  "val": "street",
+                  "offset": 24
+                },
+                {
+                  "val": "houseNumber",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.I_put_values_post_code_city_street_houseNumber(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38914,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I submit",
+            "match": {
+              "location": "steps.I_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116741,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The submit action result should be NOK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NOK",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.submit_action_result_should_be(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Provide the parameters",
+        "description": "",
+        "id": "edit-building-address;provide-the-parameters;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 188155,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The form is open for editing",
+            "match": {
+              "location": "steps.form_is_open_for_editing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 353218,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I put into values:postCode,,street,houseNumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postCode",
+                  "offset": 18
+                },
+                {
+                  "val": "",
+                  "offset": 27
+                },
+                {
+                  "val": "street",
+                  "offset": 28
+                },
+                {
+                  "val": "houseNumber",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.I_put_values_post_code_city_street_houseNumber(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39342,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I submit",
+            "match": {
+              "location": "steps.I_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150524,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The submit action result should be NOK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NOK",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.submit_action_result_should_be(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Provide the parameters",
+        "description": "",
+        "id": "edit-building-address;provide-the-parameters;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 172761,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The form is open for editing",
+            "match": {
+              "location": "steps.form_is_open_for_editing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227496,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I put into values:postCode,city,,houseNumber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postCode",
+                  "offset": 18
+                },
+                {
+                  "val": "city",
+                  "offset": 27
+                },
+                {
+                  "val": "",
+                  "offset": 32
+                },
+                {
+                  "val": "houseNumber",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.I_put_values_post_code_city_street_houseNumber(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37203,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I submit",
+            "match": {
+              "location": "steps.I_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124011,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The submit action result should be NOK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NOK",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.submit_action_result_should_be(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Provide the parameters",
+        "description": "",
+        "id": "edit-building-address;provide-the-parameters;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 177037,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The form is open for editing",
+            "match": {
+              "location": "steps.form_is_open_for_editing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223648,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I put into values:postCode,city,street,",
+            "match": {
+              "arguments": [
+                {
+                  "val": "postCode",
+                  "offset": 18
+                },
+                {
+                  "val": "city",
+                  "offset": 27
+                },
+                {
+                  "val": "street",
+                  "offset": 32
+                },
+                {
+                  "val": "",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.I_put_values_post_code_city_street_houseNumber(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56019,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I submit",
+            "match": {
+              "location": "steps.I_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157366,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The submit action result should be NOK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NOK",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.submit_action_result_should_be(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Edit building address",
+    "description": "\r\nThis feature allow the user to edit address of existing building through the web form.\r\nUser must provide all fields to submit successful. No other rules applies. \r\n\r\nProperties:\r\npostCode\r\ncity\r\nstreet\r\nhouseNumber",
+    "id": "edit-building-address",
+    "keyword": "Feature",
+    "uri": "geoPlace/cucumber/EditAddress.feature"
+  }
+]
